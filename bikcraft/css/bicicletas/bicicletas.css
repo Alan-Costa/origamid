@@ -84,11 +84,19 @@
   .bicicletas-bg {
     background-image: var(--cor-11);
   }
+
+  .bicicletas-conteudo > h2 {
+    color: var(--cor-12);
+  }
 }
 
 @media (max-width: 600px) {
   .bicicletas-conteudo {
     grid-template-columns: 1fr;
+  }
+
+  .bicicletas-conteudo > h2 {
+    color: var(--cor-12);
   }
 
   .bicicletas ul {
